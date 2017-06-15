@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "BitNow",
+  "version": "0.1.0",
+  "description": "Displays a bar with the money you'll get if you sell at the current price. Only works on Bitso.com under the wallet section.",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "run_at": "document_end",
+    "matches": ["https://*.bitso.com/wallet"]
+  }],
+  "icons": {
+    "128": "icon.png"
+  }
+}
