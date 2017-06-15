@@ -16,5 +16,5 @@ Instalación
  - Abrir chrome, ubicarse en el apartado de extensiones
  - Hacer clic en el check que dice: "modo de programador"
  - Hacer clic en el boton que dice "cargar extensión sin empaquetar".
- - Buscar el directorio donde extrajeron el zip.
+ - Buscar el directorio del repositorio.
  - Profit.
